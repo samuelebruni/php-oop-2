@@ -1,4 +1,4 @@
-<footer>
+<footer class="bg-black">
 <div class="container">
             <div class="row pt-5">
                 <div class="col-3 text-white">
@@ -119,7 +119,7 @@
 
 
             </div>
-            <div class="text-center pt-5 my-5">
+            <div class="text-center pt-5 py-5">
                 <div class="text-white">
                     &#169;2023 PET E-Commerce - All Rights Reserved.
                 </div>

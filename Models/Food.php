@@ -1,6 +1,8 @@
 <?php
+require_once __DIR__ . '/../Traits/AddPeso.php';
 class Food extends Product
-{
+{   
+    use AddPeso;
     public $section = 'food';
     public $category;
     public $weight;
@@ -13,8 +15,10 @@ class Food extends Product
         $this->weight = $productWeight;
     }
 
-    public function getPeso()
+
+    //FUNZIONE CHE VERRA ESEGUITA TRAMITE TRAITS
+    /*public function getPeso()
     {
         return $this->weight;
-    }
+    }*/
 }
