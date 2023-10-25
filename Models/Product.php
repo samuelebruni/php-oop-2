@@ -20,11 +20,6 @@ class Product
         return $this->name;
     }
 
-    public function getPrice()
-    {
-        return $this->price;
-    }
-
     public function getCode()
     {
         return $this->code;
@@ -33,5 +28,10 @@ class Product
     public function getImg()
     {
         return $this->img;
+    }
+
+    public function getPrice()
+    {
+        return $this->price;
     }
 }

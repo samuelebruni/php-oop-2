@@ -20,7 +20,7 @@
 
                                     <p class="mb-1">Gioco</p>
 
-                                    <p class="mb-1">Prezzo: <?= $prodotto->price ?>€</p>
+                                    <p class="mb-1">Prezzo: <?= $prodotto->getPrice() ?>€</p>
                                     <p class="mb-1">Materiale: <?= $prodotto->getMateriale() ?></p>
                                     <p class="mb-1">Codice Prodotto: <?= $prodotto->getCode() ?></p>
 
